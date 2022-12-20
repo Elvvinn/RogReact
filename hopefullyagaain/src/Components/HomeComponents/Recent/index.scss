@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+image {
+    width: 100%;
+}
+
+.recentsection {
+    margin-top: 100px;
+    width: 100%;
+    min-height: 80vh;
+    background-color: rgba(24, 23, 23, 0.937);
+
+}
+
+.cardgeneral {
+    margin: 0 auto;
+    max-width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.forkart {
+    max-width: 95%;
+    overflow: hidden;
+}
+
+.kart1 {
+    max-width: 31%;
+}
+
+.kart1 img {
+    width: 100%;
+
+}
+
+.kart1 img:hover {
+    transition: 1.3s;
+    transform: scale(1.1);
+}
+
+.recenth {
+    text-align: center;
+}
+
+.learn {
+    padding-top: 30px;
+    color: red;
+    text-align: center;
+}
+
+
+@media screen and (max-width:750px) {
+    .cardgeneral {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .learn {
+        font-size: 1rem;
+        color: blue;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navoz {
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    z-index: 1;
+
+    .divmain {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin: 0 auto;
+        align-items: center;
+
+        .rep {
+            color: white;
+        }
+
+        .for_a ul {
+            display: flex;
+            flex-direction: row;
+
+            li {
+                margin-left: 6px;
+                margin-right: 6px;
+
+                a {
+                    text-decoration: none;
+                    color: rgb(236, 219, 219);
+                }
+            }
+        }
+
+    }
+
+    .asusright {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        font-size: 1.2rem;
+        gap: 20px;
+    }
+
+}
+
+
+@media screen and (max-width:750px) {
+    .for_a {
+        display: none;
+    }
+
+    .rep {
+        font-size: 1rem;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .yoxolan {
+        display: none;
+    }
+
+    .fa-solid {
+        display: none;
+    }
+}
