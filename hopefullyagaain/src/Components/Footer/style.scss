@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer {
+    background-image: url("https://dlcdnwebimgs.asus.com/gain/07B097A3-E9C2-4AFF-9196-3ADE8F5BCEA1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.generalupfooterdiv {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.leftsideupfooter a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(212, 207, 207);
+}
+
+.leftsideupfooter a:hover {
+    transition: 0.8s;
+    color: rgb(252, 68, 1);
+}
+
+.rightsideupfooter i:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.rightsideupfooter {
+    font-size: 1.7rem;
+    color: rgb(214, 209, 209);
+}
+
+.eyc {
+    color: white;
+}
+
+.generaldownfooterdiv {
+    padding-top: 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .lefttsidedownfooter {
+        display: flex;
+        color: white;
+    }
+
+    .rightsidedownfooter {
+        gap: 20px;
+        color: white;
+        font-size: 0.8rem;
+    }
+}
